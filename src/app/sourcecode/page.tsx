@@ -26,11 +26,11 @@ export default function Source() {
     { label: "Mobile", checked: false },
   ]);
 
-  const handleCheckboxChange = (index: number, checked: boolean) => {
-    const newCheckboxes = [...checkboxes];
-    newCheckboxes[index].checked = checked;
-    setCheckboxes(newCheckboxes);
-  };
+  // const handleCheckboxChange = (index: number, checked: boolean) => {
+  //   const newCheckboxes = [...checkboxes];
+  //   newCheckboxes[index].checked = checked;
+  //   setCheckboxes(newCheckboxes);
+  // };
 
   const codes = [
     {

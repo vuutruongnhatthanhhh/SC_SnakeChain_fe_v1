@@ -18,7 +18,7 @@ interface FeaturedSourceCodeProps {
 const SourceCode: React.FC<FeaturedSourceCodeProps> = ({
   codes,
   title,
-  allCodeLink,
+  // allCodeLink,
   showButton,
 }) => {
   return (

@@ -38,7 +38,7 @@ const product: SourceCode = {
   demoLink: "https://www.youtube.com/watch?v=example",
 };
 
-const sc_a1 = () => {
+const Sca1 = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isPaymentModalOpen, setIsPaymentModalOpen] = useState(false);
   const [modalImage, setModalImage] = useState<string>("");
@@ -200,4 +200,4 @@ const sc_a1 = () => {
   );
 };
 
-export default sc_a1;
+export default Sca1;
