@@ -2,12 +2,12 @@
 import { useState } from "react";
 
 export default function ContactForm() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    message: "",
-  });
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   phone: "",
+  //   message: "",
+  // });
 
   // const handleChange = (
   //   e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
