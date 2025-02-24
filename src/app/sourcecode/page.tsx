@@ -18,13 +18,13 @@ export default function Source() {
   //   console.log("Searching for:", query);
   // };
 
-  const [checkboxes, setCheckboxes] = useState([
-    { label: "Tất cả", checked: true },
-    { label: "Front end", checked: false },
-    { label: "Back end", checked: false },
-    { label: "Full-stack", checked: false },
-    { label: "Mobile", checked: false },
-  ]);
+  // const [checkboxes, setCheckboxes] = useState([
+  //   { label: "Tất cả", checked: true },
+  //   { label: "Front end", checked: false },
+  //   { label: "Back end", checked: false },
+  //   { label: "Full-stack", checked: false },
+  //   { label: "Mobile", checked: false },
+  // ]);
 
   // const handleCheckboxChange = (index: number, checked: boolean) => {
   //   const newCheckboxes = [...checkboxes];
