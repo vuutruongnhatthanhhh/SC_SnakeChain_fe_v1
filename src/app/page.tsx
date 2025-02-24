@@ -83,12 +83,12 @@ export default function Home() {
       imageUrl: "/images/sourcecode/eco/main-eco.png",
       link: "/sourcecodeDetail/sc_a1",
     },
-    // {
-    //   title: "[SC_A2] Code dự án Portfolio",
-    //   description: "Nextjs",
-    //   imageUrl: "/images/sourcecode/source-code.png",
-    //   link: "/course/react",
-    // },
+    {
+      title: "[SCA2] Dự án Portfolio có chế độ sáng / tối",
+      description: "Nextjs + Tailwind CSS",
+      imageUrl: "/images/sourcecode/sca2/main-sca2.png",
+      link: "/sourcecodeDetail/sca2",
+    },
     // {
     //   title: "[SC_A3] Code dự án Portfolio",
     //   description: "Html + Css + Js",
