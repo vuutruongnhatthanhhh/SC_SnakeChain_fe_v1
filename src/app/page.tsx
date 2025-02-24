@@ -89,12 +89,12 @@ export default function Home() {
       imageUrl: "/images/sourcecode/sca2/main-sca2.png",
       link: "/sourcecodeDetail/sca2",
     },
-    // {
-    //   title: "[SC_A3] Code dự án Portfolio",
-    //   description: "Html + Css + Js",
-    //   imageUrl: "/images/sourcecode/source-code.png",
-    //   link: "/course/react",
-    // },
+    {
+      title: "[SCA3] Dự án Portfolio phối màu đẹp mắt",
+      description: "Html + Css + Js",
+      imageUrl: "/images/sourcecode/sca3/main-sca3.png",
+      link: "/sourcecodeDetail/sca3",
+    },
   ];
   return (
     <div>
