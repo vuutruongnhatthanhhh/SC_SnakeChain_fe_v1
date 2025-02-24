@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { FaFileWord } from "react-icons/fa";
+import { FaFileWord, FaYoutube } from "react-icons/fa";
 
 interface SourceCode {
   title: string;
@@ -30,7 +30,7 @@ const product: SourceCode = {
     "/images/sourcecode/sca2/home-sca2.png",
     "/images/sourcecode/sca2/project-sca2.png",
   ],
-  demoLink: "https://www.youtube.com/watch?v=example",
+  demoLink: "https://www.youtube.com/watch?v=a7-rL5A8B4w",
 };
 
 const Sca2 = () => {
@@ -86,7 +86,7 @@ const Sca2 = () => {
         </button>
 
         {/* Links */}
-        {/* <div className="flex items-center mt-4">
+        <div className="flex items-center mt-4">
           <FaYoutube className="text-red-600 mr-2" size={24} />
           <a
             href={product.demoLink}
@@ -94,9 +94,9 @@ const Sca2 = () => {
             rel="noopener noreferrer"
             className="text-blue-600 hover:underline"
           >
-            Xem demo source code
+            Xem demo dự án
           </a>
-        </div> */}
+        </div>
 
         <div className="flex items-center mt-4">
           <FaFileWord className="text-blue-600 mr-2" size={24} />

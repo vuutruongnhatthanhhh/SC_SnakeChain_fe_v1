@@ -1,5 +1,5 @@
 import React from "react";
-// import { FaYoutube, FaFacebook, FaTiktok, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaYoutube } from "react-icons/fa";
 import config from "@/config";
 
 const Footer = () => {
@@ -67,13 +67,21 @@ const Footer = () => {
           <h3 className="text-xl font-semibold mb-4">Lĩnh vực hoạt động</h3>
           <p className="mb-2 text-gray-400">{config.companyField}</p>
           <div className="mt-4 flex gap-4 justify-center sm:justify-start">
-            {/* <a href="#" className="text-blue-400 hover:text-blue-500">
+            <a
+              href="https://www.youtube.com/@SnakeChain2801"
+              className="text-blue-400 hover:text-blue-500"
+              target="_blank"
+            >
               <FaYoutube className="h-6 w-6" />
             </a>
-            <a href="#" className="text-blue-400 hover:text-blue-500">
+            <a
+              href="https://www.facebook.com/profile.php?id=61573199592592"
+              className="text-blue-400 hover:text-blue-500"
+              target="_blank"
+            >
               <FaFacebook className="h-6 w-6" />
             </a>
-            <a href="#" className="text-blue-400 hover:text-blue-500">
+            {/* <a href="#" className="text-blue-400 hover:text-blue-500">
               <FaTiktok className="h-6 w-6" />
             </a>
             <a href="#" className="text-blue-400 hover:text-blue-500">
