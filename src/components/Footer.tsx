@@ -67,7 +67,7 @@ const Footer = () => {
           <h3 className="text-xl font-semibold mb-4">Lĩnh vực hoạt động</h3>
           <p className="mb-2 text-gray-400">{config.companyField}</p>
           <div className="mt-4 flex gap-4 justify-center sm:justify-start">
-            <a href="#" className="text-blue-400 hover:text-blue-500">
+            {/* <a href="#" className="text-blue-400 hover:text-blue-500">
               <FaYoutube className="h-6 w-6" />
             </a>
             <a href="#" className="text-blue-400 hover:text-blue-500">
@@ -78,7 +78,7 @@ const Footer = () => {
             </a>
             <a href="#" className="text-blue-400 hover:text-blue-500">
               <FaInstagram className="h-6 w-6" />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
