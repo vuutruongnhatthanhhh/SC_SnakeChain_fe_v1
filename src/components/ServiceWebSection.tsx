@@ -3,7 +3,7 @@ import {
   FaShoppingCart,
   FaBuilding,
   FaCode,
-  FaMobileAlt,
+  // FaMobileAlt,
 } from "react-icons/fa";
 import ServiceCard from "./ServiceCard";
 import config from "@/config";

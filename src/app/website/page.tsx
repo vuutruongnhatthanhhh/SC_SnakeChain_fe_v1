@@ -3,7 +3,7 @@ import ServicesWebSection from "@/components/ServiceWebSection";
 import WebCard from "@/components/WebCard";
 import WhyWebSection from "@/components/WhyWebSection";
 import ProcessWebSection from "@/components/ProcessWebSection";
-import QuoteRequestForm from "@/components/QuoteRequestForm";
+// import QuoteRequestForm from "@/components/QuoteRequestForm";
 
 const Page: React.FC = () => {
   const images = [
