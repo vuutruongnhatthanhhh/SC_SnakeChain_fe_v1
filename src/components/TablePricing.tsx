@@ -138,9 +138,8 @@ export default function TablePricing() {
   // const [selectedService, setSelectedService] = useState(services[0].id);
   const router = useRouter();
 
-  const handleSelectPlan = (planName: any, price: any) => {
+  const handleSelectPlan = () => {
     router.push(`/contact`);
-    console.log(planName, price);
   };
   return (
     <div className="max-w-7xl mx-auto p-6">
@@ -197,7 +196,7 @@ export default function TablePricing() {
                     </ul>
                     <button
                       className="mt-6 bg-green-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-700"
-                      onClick={() => handleSelectPlan(plan.name, plan.price)}
+                      onClick={() => handleSelectPlan()}
                     >
                       Chọn gói này
                     </button>
