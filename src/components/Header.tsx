@@ -75,13 +75,13 @@ const Header: React.FC = () => {
             {/* <Link href="/course" className="text-white hover:text-[#319795]">
               Khóa học
             </Link> */}
-            {/* <div
+            <div
               className="relative"
               onMouseEnter={() => setDropdownVisible(true)}
               onMouseLeave={() => setDropdownVisible(false)}
             >
               <Link
-                href="#"
+                href="/website"
                 className="text-white hover:text-[#319795] flex items-center"
               >
                 Dịch vụ
@@ -103,15 +103,15 @@ const Header: React.FC = () => {
                   >
                     Thiết kế website
                   </Link>
-                  <Link
+                  {/* <Link
                     href="/mobile"
                     className="block px-6 py-3 hover:bg-[#319795] transition-colors duration-300"
                   >
                     Thiết kế ứng dụng di động
-                  </Link>
+                  </Link> */}
                 </div>
               )}
-            </div> */}
+            </div>
             <Link
               href="/sourcecode"
               className="text-white hover:text-[#319795]"

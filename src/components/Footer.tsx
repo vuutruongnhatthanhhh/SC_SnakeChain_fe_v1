@@ -60,6 +60,11 @@ const Footer = () => {
                 Source code
               </a>
             </li>
+            <li>
+              <a href="/website" className="text-gray-400 hover:underline">
+                Thiết kế website
+              </a>
+            </li>
           </ul>
         </div>
 
