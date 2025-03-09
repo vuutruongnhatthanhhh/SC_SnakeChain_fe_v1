@@ -20,6 +20,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: `${config.title}`,
   description: `${config.description}`,
+  other: {
+    "application/ld+json": JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: "Snake Chain",
+      url: "https://snakechain.io.vn",
+    }),
+  },
 };
 
 export default function RootLayout({
