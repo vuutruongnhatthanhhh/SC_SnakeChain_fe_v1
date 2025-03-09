@@ -26,6 +26,10 @@ export const metadata: Metadata = {
       "@type": "WebSite",
       name: "Snake Chain",
       url: "https://snakechain.io.vn",
+      publisher: {
+        "@type": "Organization",
+        name: "Snake Chain",
+      },
     }),
   },
 };
